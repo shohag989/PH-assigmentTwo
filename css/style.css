@@ -1,0 +1,57 @@
+/* GoogleFont Import [Inter] */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* RootElements | Start */
+:root {
+    /* Brand Colors */
+  --color-primary: #7c5cff;
+  --color-secondary: #22c55e;
+  --gradient-primary: linear-gradient(
+    90deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #ffb347 100%
+  );
+
+  /* Background Colors */
+  --color-bg-main: #1A0B2E;
+  --color-bg-section: #230E3D;
+  --color-bg-card: #2A0F4D;
+
+  /* Text Colors */
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #A89EB4;
+  --color-text-muted: #E8E7EA;
+
+  /* Border & Divider */
+  --color-border: #412567;
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  /* Shadow */
+  --shadow-sm: 0 4px 10px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.35);
+
+  /* Transition */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+}
+
+/* RootElements | End */
+
+/* CommonStyle | Start  */
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-bg-main);
+    color: var(--color-text-primary);
+}
+/* CommonStyle | End  */
