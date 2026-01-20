@@ -1,12 +1,12 @@
-document.querySelectorAll(".videoWrapper").forEach(wrapper => {
-    wrapper.addEventListener(
-      "click",
-      () => {
-        const videoId = wrapper.dataset.videoId;
+document.querySelectorAll(".videoWrapper").forEach((wrapper) => {
+  wrapper.addEventListener(
+    "click",
+    () => {
+      const videoId = wrapper.dataset.videoId;
 
-        wrapper.classList.add("is-playing");
+      wrapper.classList.add("is-playing");
 
-        wrapper.innerHTML = `
+      wrapper.innerHTML = `
           <iframe
             src="https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0"
             frameborder="0"
@@ -14,7 +14,8 @@ document.querySelectorAll(".videoWrapper").forEach(wrapper => {
             allowfullscreen
           ></iframe>
         `;
-      },
-      { once: true } // IMPORTANT: click runs only once
-    );
-  });
+    },
+    { once: true },
+  );
+});
+

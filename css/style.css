@@ -155,20 +155,10 @@ body {
 }
 
 .navToggle {
-  background: transparent;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
   display: none;
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  background-color: white;
-  transition: all 0.3s ease-in-out;
+  font-size: 1.5rem;
+  color: var(--color-text-primary);
+  cursor: pointer;
 }
 
 /* siteHeader Style | End */
@@ -181,7 +171,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  min-height: 100vh;
+  min-height: 100svh;
 }
 
 #heroSection .Container {

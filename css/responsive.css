@@ -1,20 +1,83 @@
-/* Desktop default */
-
-/* < 1200px */
-@media (max-width: 1199px) {
+@media (max-width: 768px) {
+  h2 {
+    font-size: 44px;
+    line-height: 1.2;
+  }
+  
 }
 
-/*  Tablet < 992px */
-@media (max-width: 991px) {
-  .navLinks {
+@media (max-width: 640px) {
+
+  /* siteHeader Style | Start */
+  .logoWrapper img {
+  width: 160px;
+}
+  .navLinks, .navActions {
     display: none;
   }
-}
 
-/* Large Mobile < 768px */
-@media (max-width: 767px) {
+  .navToggle {
+  display: block;
 }
+  /* siteHeader Style | End */
 
-/* Small Mobile < 576px */
-@media (max-width: 575px) {
+  /* heroSection Responsive | Start */
+  #heroSection {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+  /* heroSection Responsive | End */
+
+  /* podcastStats Responsive | Start */
+
+  #podcastStats .statCards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+/* podcastStats Responsive | End */
+
+/* whyChooseUs Responsive | Start */
+#whyChooseUs .featuresGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+/* whyChooseUs Responsive | End */
+
+/* featuredEpisodes Responsive | Start */
+#featuredEpisodes .episodesFlex {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+/* featuredEpisodes Responsive | End */
+
+/* hostSection Responsive | Start */
+.hostCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column !important;
+  text-align: center;
+  gap: 30px;
+
+}
+.hostProfile img {
+  width: 100%;
+}
+/* hostSection Responsive | End */
+
+/* siteFooter Responsive | Start */
+#siteFooter {
+  padding: 40px 0;
+}
+#siteFooter .footerSocial {
+  flex-wrap: wrap;
+}
+/* siteFooter Responsive | End */
 }
