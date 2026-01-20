@@ -15,7 +15,7 @@ document.querySelectorAll(".videoWrapper").forEach((wrapper) => {
           ></iframe>
         `;
     },
-    { once: true },
+    { once: true }, // IMPORTANT: click runs only once
   );
 });
 
