@@ -3,82 +3,80 @@
     font-size: 44px;
     line-height: 1.2;
   }
-  
 }
 
 @media (max-width: 640px) {
-
   /* siteHeader Style | Start */
   .logoWrapper img {
-  width: 160px;
-}
+    width: 160px;
+  }
 
-  .navLinks, .navActions {
+  .navLinks,
+  .navActions {
     display: none;
   }
 
   .navToggle {
-  display: block;
-}
+    display: block;
+  }
   /* siteHeader Style | End */
 
   /* heroSection Responsive | Start */
   #heroSection {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   /* heroSection Responsive | End */
 
   /* podcastStats Responsive | Start */
 
   #podcastStats .statCards {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 80px;
-}
-/* podcastStats Responsive | End */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+  }
+  /* podcastStats Responsive | End */
 
-/* whyChooseUs Responsive | Start */
-#whyChooseUs .featuresGrid {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-/* whyChooseUs Responsive | End */
+  /* whyChooseUs Responsive | Start */
+  #whyChooseUs .featuresGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  /* whyChooseUs Responsive | End */
 
-/* featuredEpisodes Responsive | Start */
-#featuredEpisodes .episodesFlex {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-/* featuredEpisodes Responsive | End */
+  /* featuredEpisodes Responsive | Start */
+  #featuredEpisodes .episodesFlex {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  /* featuredEpisodes Responsive | End */
 
-/* hostSection Responsive | Start */
-.hostCard {
-  display: flex;
-  align-items: center;
-  flex-direction: column !important;
-  text-align: center;
-  gap: 30px;
+  /* hostSection Responsive | Start */
+  .hostCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column !important;
+    text-align: center;
+    gap: 30px;
+  }
+  .hostProfile img {
+    width: 100%;
+  }
+  /* hostSection Responsive | End */
 
-}
-.hostProfile img {
-  width: 100%;
-}
-/* hostSection Responsive | End */
-
-/* siteFooter Responsive | Start */
-#siteFooter {
-  padding: 40px 0;
-}
-#siteFooter .footerSocial {
-  flex-wrap: wrap;
-}
-/* siteFooter Responsive | End */
+  /* siteFooter Responsive | Start */
+  #siteFooter {
+    padding: 40px 0;
+  }
+  #siteFooter .footerSocial {
+    flex-wrap: wrap;
+  }
+  /* siteFooter Responsive | End */
 }

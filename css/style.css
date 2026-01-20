@@ -219,7 +219,6 @@ body {
   box-shadow: 3px 0px 27px #22c55e7a;
 }
 
-
 .heroContent .new button::before,
 .heroContent .new button::after {
   content: "";
@@ -235,7 +234,6 @@ body {
   animation-delay: 1.25s;
 }
 
-
 @keyframes ripple {
   0% {
     transform: scale(0.8);
@@ -246,7 +244,6 @@ body {
     opacity: 0;
   }
 }
-
 
 .heroTitle h2 {
   margin: 40px 0 12px 0;
