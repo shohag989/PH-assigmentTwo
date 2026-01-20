@@ -8,6 +8,7 @@
       href="./Components/images/FavIcon.png"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="./css/ripple.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>PH-AssignmentTwo | Shohag</title>
@@ -20,6 +21,11 @@
           <a href="index.html"
             ><img src="./Components/icons/TechWaveLogo.svg" alt="TechWave"
           /></a>
+        </div>
+        <div class="navToggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
         <div class="navLinks">
           <ul>
@@ -41,9 +47,12 @@
     <section id="heroSection">
       <div class="Container">
         <div class="heroContent">
-          <img src="./Components/icons/BannerMic.svg" alt="icon" />
+          <div class="micBG">
+            <img src="./Components/icons/BannerMic.svg" alt="" />
+          </div>
+          <!-- <img src="./Components/icons/BannerMic.svg" alt="icon" /> -->
           <div class="new">
-            <button>NEW</button>
+            <button class="ripple">NEW</button>
           </div>
         </div>
         <div class="heroTitle">
@@ -74,10 +83,9 @@
             TechWave is your go-to podcast for staying ahead in the fast-paced
             world of technology. We break down complex topics into digestible
             insights, explore productivity strategies that actually work,and
-            share stories of personal growth from industry leaders.<span
-              >Join thousands of young professionals and tech enthusiasts who
-              start their day with TechWave.</span
-            >
+            share stories of personal growth from industry leaders.
+            <br /><br />Join thousands of young professionals and tech
+            enthusiasts who start their day with TechWave.
           </p>
         </div>
         <div class="statCards">
@@ -90,9 +98,7 @@
             <p>Episodes Published</p>
           </div>
           <div class="statCard">
-            <h3>
-              4.9 <span><i class="fa-solid fa-star"></i></span>
-            </h3>
+            <h3>4.9 <span>★</span></h3>
             <p>Average Rating</p>
           </div>
           <div class="statCard">
@@ -112,29 +118,32 @@
         </div>
 
         <div class="featuresGrid">
-          <div class="featureCard">
+          <div class="featureCard longHeight">
             <div class="featureIcon">
-              <img src="./Components/icons/AudioIcon.svg" alt="">
+              <img src="./Components/icons/AudioIcon.svg" alt="" />
             </div>
             <h3 class="featureTitle">Premium Audio Quality</h3>
             <p class="featureDescription">
-              Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.
+              Experience crystal-clear sound with professional-grade recording
+              equipment and expert audio engineering. Every episode is mastered
+              for optimal listening across all devices and platforms.
             </p>
           </div>
 
-          <div class="featureCard">
+          <div class="featureCard longWidth">
             <div class="featureIcon">
-              <img src="./Components/icons/MobileIcon.svg" alt="">
+              <img src="./Components/icons/MobileIcon.svg" alt="" />
             </div>
             <h3 class="featureTitle">Mobile Friendly</h3>
             <p class="featureDescription">
-              Listen on the go with seamless mobile experience and offline downloads.
+              Listen on the go with seamless mobile experience and offline
+              downloads.
             </p>
           </div>
 
-          <div class="featureCard">
+          <div class="featureCard longWidth">
             <div class="featureIcon">
-              <img src="./Components/icons/GlobalCommunityIcon.svg" alt="">
+              <img src="./Components/icons/GlobalCommunityIcon.svg" alt="" />
             </div>
             <h3 class="featureTitle">Global Community</h3>
             <p class="featureDescription">
@@ -142,23 +151,28 @@
             </p>
           </div>
 
-          <div class="featureCard">
+          <div class="featureCard longWidth">
             <div class="featureIcon">
-              <img src="./Components/icons/ExclusiveIcon.svg" alt="">
+              <img src="./Components/icons/ExclusiveIcon.svg" alt="" />
             </div>
             <h3 class="featureTitle">Exclusive Interviews</h3>
             <p class="featureDescription">
-              Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.
+              Get unprecedented access to industry titans, startup founders, and
+              tech visionaries. Our host secures exclusive conversations you
+              won't find anywhere else, diving deep into their journeys,
+              failures, and success strategies.
             </p>
           </div>
 
-          <div class="featureCard">
+          <div class="featureCard gridRegular">
             <div class="featureIcon">
-              <img src="./Components/icons/ResourcesIcon.svg" alt="">
+              <img src="./Components/icons/ResourcesIcon.svg" alt="" />
             </div>
             <h3 class="featureTitle">Rich Resources</h3>
             <p class="featureDescription">
-              Access show notes, transcripts, and additional learning materials for every episode.</p>
+              Access show notes, transcripts, and additional learning materials
+              for every episode.
+            </p>
           </div>
         </div>
       </div>
@@ -166,87 +180,167 @@
     <!-- whyChooseUs Section | End -->
 
     <!-- featuredEpisodes Section | Start -->
-     <section id="featuredEpisodes">
-        <div class="Container">
-            <div class="sectionHeader">
-                <div class="episodesFlex">
-                    <div class="episodeCard">
-                        <div class="episodeThumbnail">
-                            <iframe width="862" height="485" src="https://www.youtube.com/embed/X7XbjwD6fVY" title="#01 Introduction | Tailwind CSS Bangla Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                        <div class="episodeContent">
-                            <h3>The Future of AI in Everyday Life</h3>
-                            <p>Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
-                        </div>
-                        <div class="episodeDuration"><i class="fa-solid fa-clock"></i> <p>42 min</p></div>
-                    </div>
-                    <div class="episodeCard">
-                        <div class="episodeThumbnail">
-                            <iframe width="862" height="485" src="https://www.youtube.com/embed/X7XbjwD6fVY" title="#01 Introduction | Tailwind CSS Bangla Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                        <div class="episodeContent">
-                            <h3>Building Better Habits for Remote Work</h3>
-                            <p>Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
-                        </div>
-                        <div class="episodeDuration"><i class="fa-solid fa-clock"></i> <p>35 min</p></div>
-                    </div>
-                    <div class="episodeCard">
-                        <div class="episodeThumbnail">
-                            <iframe width="862" height="485" src="https://www.youtube.com/embed/X7XbjwD6fVY" title="#01 Introduction | Tailwind CSS Bangla Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                        <div class="episodeContent">
-                            <h3>Career Growth in Tech: A Roadmap</h3>
-                            <p>Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
-                        </div>
-                        <div class="episodeDuration"><i class="fa-solid fa-clock"></i> <p>51 min</p></div>
-                    </div>
-                </div>
-            </div>
+    <section id="featuredEpisodes">
+      <div class="Container">
+        <div class="sectionHeader">
+          <h2 class="sectionTitle">Featured Episodes</h2>
         </div>
-     </section>
+        <div class="episodesFlex">
+          <div class="episodeCard">
+            <div
+              class="episodeThumbnail videoWrapper"
+              data-video-id="X7XbjwD6fVY"
+            >
+              <img
+                src="./Components/images/featuredImgOne.png"
+                alt="Episode thumbnail"
+                class="videoThumbnail"
+              />
+
+              <button class="playButton">
+                <i class="fa-solid fa-play"></i>
+              </button>
+            </div>
+
+            <div class="episodeContent">
+              <h3>The Future of AI in Everyday Life</h3>
+              <p>
+                Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.
+              </p>
+            </div>
+            <div class="episodeDuration">
+              <i class="fa-solid fa-clock"></i>
+              <p>32 min</p>
+            </div>
+          </div>
+          <div class="episodeCard">
+            <div
+              class="episodeThumbnail videoWrapper"
+              data-video-id="X7XbjwD6fVY"
+            >
+              <img
+                src="./Components/images/featuredImgTwo.png"
+                alt="Episode thumbnail"
+                class="videoThumbnail"
+              />
+
+              <button class="playButton">
+                <i class="fa-solid fa-play"></i>
+              </button>
+            </div>
+
+            <div class="episodeContent">
+              <h3>Building Better Habits for Remote Work</h3>
+              <p>
+                Practical strategies for staying productive and maintaining work-life balance in a remote environment.
+              </p>
+            </div>
+            <div class="episodeDuration">
+              <i class="fa-solid fa-clock"></i>
+              <p>35 min</p>
+            </div>
+          </div>
+          <div class="episodeCard">
+            <div
+              class="episodeThumbnail videoWrapper"
+              data-video-id="X7XbjwD6fVY"
+            >
+              <img
+                src="./Components/images/featuredImgThree.png"
+                alt="Episode thumbnail"
+                class="videoThumbnail"
+              />
+
+              <button class="playButton">
+                <i class="fa-solid fa-play"></i>
+              </button>
+            </div>
+
+            <div class="episodeContent">
+              <h3>Career Growth in Tech: A Roadmap</h3>
+              <p>
+                Expert advice on navigating your tech career from junior
+                developer to senior leadership roles.
+              </p>
+            </div>
+            <div class="episodeDuration">
+              <i class="fa-solid fa-clock"></i>
+              <p>51 min</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- featuredEpisodes Section | End -->
 
     <!-- hostSection Section | Start -->
-     <section id="hostSection">
-        <div class="Container">
-            <div class="hostProfile">
-                <img src="./Components/images/HostPFP.jpg" alt="Host">
-            </div>
-            <div class="hostInfo">
-                <h3>Alex Kumar</h3>
-                <p>Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
-                <div class="hostSocialLinks">
-                    <ul>
-                        <li><a href="#"></a><i class="fa-brands fa-linkedin-in"></i></li>
-                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                    </ul>
-                </div>
-            </div>
+    <section id="hostSection">
+      <div class="Container">
+        <div class="sectionHeader">
+          <h2 class="sectionTitle">Meet the Host</h2>
         </div>
-     </section>
+        <div class="hostCard">
+          <div class="hostProfile">
+          <img src="./Components/images/HostPFP.jpg" alt="Host" />
+        </div>
+        <div class="hostInfo">
+          <h3>Alex Kumar</h3>
+          <p>
+            Tech entrepreneur, productivity expert, and lifelong learner. Alex
+            has been in the tech industry for over 10 years, working with
+            startups and Fortune 500 companies. Through TechWave, Alex shares
+            insights from industry leaders and practical advice for anyone
+            looking to grow in tech.
+          </p>
+          <div class="hostSocialLinks">
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              <li>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
     <!-- hostSection Section | End -->
 
     <!-- siteFooter Section | Start -->
-     <footer id="siteFooter">
-        <div class="Container">
-            <div class="footerBrand">
-                <a href="#"><img src="./Components/icons/TechWaveLogo.svg" alt="Logo"></a>
-            </div>
-            <div class="footerLinks">
-                <ul class="footerSocial">
-                    <li><a href="#"><i class="fa-brands fa-spotify"></i> Spotify</a></li>
-                    <li><a href="#"><i class="fa-solid fa-podcast"></i> Apple Podcasts</a></li>
-                    <li><a href="#"><i class="fa-brands fa-youtube"></i> YouTube</a></li>
-                    <li><a href="#"><i class="fa-brands fa-twitter"></i> YouTube</a></li>
-                </ul>
-            </div>
-            <div class="footerCopyright">
-                <p>© 2026 TechWave Podcast. All rights reserved.</p>
-            </div>
+    <footer id="siteFooter">
+      <div class="Container">
+        <div class="footerBrand">
+          <a href="#"
+            ><img src="./Components/icons/TechWaveLogo.svg" alt="Logo"
+          /></a>
         </div>
-     </footer>
+        <div class="footerLinks">
+          <ul class="footerSocial">
+            <li>
+              <a href="#"><i class="fa-brands fa-spotify"></i> Spotify</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-podcast"></i> Apple Podcasts</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-youtube"></i> YouTube</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i> YouTube</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footerCopyright">
+          <p>© 2026 TechWave Podcast. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
     <!-- siteFooter Section | End -->
     <script
       src="https://kit.fontawesome.com/a42041f0f5.js"
